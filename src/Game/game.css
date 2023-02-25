@@ -1,0 +1,70 @@
+.verticaltext-left{
+    transform: rotate(90deg) translateX(30%);    
+    transform-origin: left 0;
+ }
+
+.verticaltext-right{
+   transform: rotate(-90deg) translateX(-30%);    
+   transform-origin: right 0;
+}
+
+.horizontal-card-left{
+    transform: rotate(-90deg) translate(-30%);
+}
+
+.horizontal-card-right{
+    transform: rotate(-90deg) translate(-30%);
+}
+
+.horizontal-played-card-left{
+    transform: rotate(-90deg);    
+}
+
+.horizontal-played-card-right{
+    transform: rotate(90deg);    
+}
+
+.horizontal-deck-right{
+    transform: rotate(-90deg) translatey(20%);    
+}
+
+.horizontal-deck-left{
+    transform: rotate(90deg);    
+}
+
+.inverted-deck{
+    transform: rotate(180deg);    
+}
+
+.my-modal .close{
+    position: absolute;
+	top: 15px;
+	right: 15px;
+	color: #fff;
+	text-shadow: none;
+	opacity: 0.5;
+}
+
+.my-modal .modal-header {
+    background-color: #dc3545;
+    border-bottom: none;			
+	padding: 35px;    
+}
+
+.my-modal .modal-header .modal-title{
+    color: #fff;		
+	width: 95px;
+	height: 95px;
+	display: inline-block;
+	border-radius: 50%;
+	z-index: 9;
+	border: 5px solid #fff;
+	padding: 15px;
+	text-align: center;
+    margin: auto;
+}
+
+.my-modal .modal-header .modal-title *{
+    font-size: 58px;
+	margin: -2px 0 0 -2px;
+}
