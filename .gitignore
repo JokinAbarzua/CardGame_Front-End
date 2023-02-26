@@ -22,5 +22,5 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-#imagenes de las cartas
+#imagenes de las cartas. MazoNaipes y Puntos
 /src/assets/*
